@@ -1,0 +1,17 @@
+git config --global -- user.name ane-noelle
+git config --global -- user.email anenoelle60@gmail.com
+
+criando o projeto: ( fazer uma vez só)
+npx create-expo-app@latest AnaShoppingList --template blank
+
+executar o projeto:
+cd AnaShoppingList
+npx expo start 
+
+instala o pacote web:
+npx expo install react-dom react-native-web @expo/metro-runtime
+ 
+ instalando o expo rounter :
+ npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+ 
