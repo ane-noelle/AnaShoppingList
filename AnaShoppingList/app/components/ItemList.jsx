@@ -10,7 +10,7 @@ export default function ItemList({ item }) {
         <Ionicons name='bag-check-outline' size={24} color='#fff' />
       </TouchableOpacity>
       <TouchableOpacity style={[styles.actionIcon, { backgroundColor: 'darkred'}]}>
-        <Ionicons  name='trash-bi-outline' size={24} color='#fff'/>
+        <Ionicons  name='trash-bin-outline' size={24} color='#fff'/>
       </TouchableOpacity>
     </View>
   )
