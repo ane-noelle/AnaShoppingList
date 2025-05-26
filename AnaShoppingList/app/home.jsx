@@ -94,7 +94,12 @@ export default function Home() {
           data={items}
           keyExtractor={(item) => item.id.toString()}
           renderItem={({ item }) => 
-            <ItemList item={item} />
+            <ItemList 
+               item={item} 
+               markItem={markItemBought}
+               unmarkItem={unmarkItemBought}
+               removeItem={removeItem}       
+           />
           }
         />
 
